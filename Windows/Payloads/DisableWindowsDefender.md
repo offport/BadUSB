@@ -1,4 +1,4 @@
-## Opening a powershell as admin.
+## Opening a Powershell as Admin + Diable Windows Defender
 *Note: only works if no password is required for admin*
 
     DELAY 2000
