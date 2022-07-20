@@ -16,7 +16,7 @@ Code
     ENTER
     LED 0 0 255
 
-Code
+Code + Hide Powershell Window
 
     LED 0 0 0
     DELAY 1000
