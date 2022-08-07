@@ -1,6 +1,9 @@
 # BadUSB
+A repo for BadUSB payloads for RubberDucky and Malduino.
 
 
-## Other notes
+
+
+### Other resources
 
 - Interesting website that turns RubberDucky code into Python. [Ducky2Python](https://cedarctic.github.io/ducky2python/)
