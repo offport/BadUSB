@@ -1,7 +1,7 @@
 # BadUSB
 A repo for BadUSB payloads for RubberDucky and Malduino.
 
-![](usb-malware1.png)
+![](usb-malware0.png)
 
 
 ### Other resources
