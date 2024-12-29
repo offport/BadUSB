@@ -94,7 +94,7 @@ Payload
 	DELAY 500
 	ENTER
 	DELAY 500
-	STRING curl https://wallpapercave.com/wp/VWltOoz.jpg -o /var/tmp/VWltOoz.jpg
+	STRING curl https://cdn3.geckoandfly.com/wp-content/uploads/2015/09/android-windows-mac-iphone-prank-4.jpg -o /var/tmp/VWltOoz.jpg
 	ENTER
 	ENTER
 	DELAY 500
